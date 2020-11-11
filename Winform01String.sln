@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform13Stream", "Winform1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform14Timer", "Winform14Timer\Winform14Timer.csproj", "{16D58684-542D-40BD-9889-B699A3597ACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform15QueueStack", "Winform15QueueStack\Winform15QueueStack.csproj", "{14784FFD-6F00-4D5E-875E-AA37E3132392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform16List", "WindowsFormsApp1\Winform16List.csproj", "{6BEECA9F-EF6F-4BA7-8B89-3F0AA1C034C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{16D58684-542D-40BD-9889-B699A3597ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D58684-542D-40BD-9889-B699A3597ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D58684-542D-40BD-9889-B699A3597ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14784FFD-6F00-4D5E-875E-AA37E3132392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14784FFD-6F00-4D5E-875E-AA37E3132392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14784FFD-6F00-4D5E-875E-AA37E3132392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14784FFD-6F00-4D5E-875E-AA37E3132392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEECA9F-EF6F-4BA7-8B89-3F0AA1C034C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEECA9F-EF6F-4BA7-8B89-3F0AA1C034C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEECA9F-EF6F-4BA7-8B89-3F0AA1C034C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEECA9F-EF6F-4BA7-8B89-3F0AA1C034C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
