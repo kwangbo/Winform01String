@@ -39,11 +39,12 @@
             this.tboxRegRef = new System.Windows.Forms.TextBox();
             this.btnReg = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cboxViewClass = new System.Windows.Forms.ComboBox();
-            this.dgViewInfo = new System.Windows.Forms.DataGridView();
             this.btnViewDataDel = new System.Windows.Forms.Button();
+            this.dgViewInfo = new System.Windows.Forms.DataGridView();
+            this.cboxViewClass = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnModify = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgViewInfo)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -160,6 +161,25 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "내용";
             // 
+            // btnViewDataDel
+            // 
+            this.btnViewDataDel.Location = new System.Drawing.Point(577, 35);
+            this.btnViewDataDel.Name = "btnViewDataDel";
+            this.btnViewDataDel.Size = new System.Drawing.Size(75, 23);
+            this.btnViewDataDel.TabIndex = 10;
+            this.btnViewDataDel.Text = "삭제";
+            this.btnViewDataDel.UseVisualStyleBackColor = true;
+            this.btnViewDataDel.Click += new System.EventHandler(this.btnViewDataDel_Click);
+            // 
+            // dgViewInfo
+            // 
+            this.dgViewInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgViewInfo.Location = new System.Drawing.Point(27, 64);
+            this.dgViewInfo.Name = "dgViewInfo";
+            this.dgViewInfo.RowTemplate.Height = 23;
+            this.dgViewInfo.Size = new System.Drawing.Size(625, 187);
+            this.dgViewInfo.TabIndex = 11;
+            // 
             // cboxViewClass
             // 
             this.cboxViewClass.FormattingEnabled = true;
@@ -172,25 +192,6 @@
             this.cboxViewClass.Size = new System.Drawing.Size(121, 20);
             this.cboxViewClass.TabIndex = 10;
             this.cboxViewClass.SelectedIndexChanged += new System.EventHandler(this.cboxViewClass_SelectedIndexChanged);
-            // 
-            // dgViewInfo
-            // 
-            this.dgViewInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgViewInfo.Location = new System.Drawing.Point(27, 64);
-            this.dgViewInfo.Name = "dgViewInfo";
-            this.dgViewInfo.RowTemplate.Height = 23;
-            this.dgViewInfo.Size = new System.Drawing.Size(625, 187);
-            this.dgViewInfo.TabIndex = 11;
-            // 
-            // btnViewDataDel
-            // 
-            this.btnViewDataDel.Location = new System.Drawing.Point(567, 35);
-            this.btnViewDataDel.Name = "btnViewDataDel";
-            this.btnViewDataDel.Size = new System.Drawing.Size(75, 23);
-            this.btnViewDataDel.TabIndex = 10;
-            this.btnViewDataDel.Text = "삭제";
-            this.btnViewDataDel.UseVisualStyleBackColor = true;
-            this.btnViewDataDel.Click += new System.EventHandler(this.btnViewDataDel_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -225,11 +226,22 @@
             this.panel1.Size = new System.Drawing.Size(334, 32);
             this.panel1.TabIndex = 6;
             // 
+            // btnModify
+            // 
+            this.btnModify.Location = new System.Drawing.Point(515, 183);
+            this.btnModify.Name = "btnModify";
+            this.btnModify.Size = new System.Drawing.Size(75, 23);
+            this.btnModify.TabIndex = 12;
+            this.btnModify.Text = "수정";
+            this.btnModify.UseVisualStyleBackColor = true;
+            this.btnModify.Click += new System.EventHandler(this.btnModify_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(783, 530);
+            this.Controls.Add(this.btnModify);
             this.Controls.Add(this.btnReg);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.groupBox2);
@@ -262,6 +274,7 @@
         private System.Windows.Forms.ComboBox cboxViewClass;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnModify;
     }
 }
 

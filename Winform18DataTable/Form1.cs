@@ -121,5 +121,34 @@ namespace Winform18DataTable
             dgViewInfo.AutoResizeRowHeadersWidth(DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders);
         }
 
+        /// <summary>
+        /// 수정
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnModify_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(tboxRegName.Text))
+            {
+                foreach (DataRow oitem in ds.Tables[cboxRegClass.Text].Rows)
+                {
+                    if (oitem["NAME"].Equals(tboxRegName.Text))
+                    {
+                        if (rdoRegSexFemale.Checked)
+                        {
+                            oitem["SEX"] = "남자";
+                        }
+                        else
+                        {
+                            oitem["SEX"] = "여자";
+                        }
+                        oitem["REF"] = tboxRegRef.Text;
+                    }
+                }
+                ViewRefresh();
+            }
+           
+        }
+
     }
 }
