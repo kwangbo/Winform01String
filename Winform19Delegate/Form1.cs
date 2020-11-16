@@ -244,7 +244,7 @@ namespace Winform19Delegate
         //    }
         //}
 
-        Timer _timer;
+        //Timer _timer;
 
         private int FPizza_eventdelPizzaComplete(string strResult, int iTime)
         {
