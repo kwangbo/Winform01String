@@ -43,6 +43,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform19Delegate", "Winfor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform20Thread", "Winform20Thread\Winform20Thread.csproj", "{7CE6C233-9344-4A66-9323-1E8FD39333C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform21Exception", "Winform21Exception\Winform21Exception.csproj", "{4533E99D-3CA8-4D31-B7A8-E86DCFFFDBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform21Exception2", "Winform21Exception2\Winform21Exception2.csproj", "{D45EFBC8-D123-4300-83A3-1EED58547CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform22UserControl", "Winform22UserControl\Winform22UserControl.csproj", "{44ED5D0E-847C-4FBE-946D-FE1D891797E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform23Lambda", "Winform23Lambda\Winform23Lambda.csproj", "{70A79D23-67BA-432A-A241-5A35BA1ADB68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +137,22 @@ Global
 		{7CE6C233-9344-4A66-9323-1E8FD39333C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE6C233-9344-4A66-9323-1E8FD39333C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE6C233-9344-4A66-9323-1E8FD39333C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4533E99D-3CA8-4D31-B7A8-E86DCFFFDBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4533E99D-3CA8-4D31-B7A8-E86DCFFFDBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4533E99D-3CA8-4D31-B7A8-E86DCFFFDBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4533E99D-3CA8-4D31-B7A8-E86DCFFFDBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45EFBC8-D123-4300-83A3-1EED58547CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45EFBC8-D123-4300-83A3-1EED58547CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45EFBC8-D123-4300-83A3-1EED58547CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45EFBC8-D123-4300-83A3-1EED58547CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ED5D0E-847C-4FBE-946D-FE1D891797E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED5D0E-847C-4FBE-946D-FE1D891797E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED5D0E-847C-4FBE-946D-FE1D891797E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED5D0E-847C-4FBE-946D-FE1D891797E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

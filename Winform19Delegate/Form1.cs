@@ -243,9 +243,7 @@ namespace Winform19Delegate
         //        flboxOrderRed("주문 완료 확인 ");
         //    }
         //}
-
-        //Timer _timer;
-
+      
         private int FPizza_eventdelPizzaComplete(string strResult, int iTime)
         {
             flboxOrderRed("---------------------------------");

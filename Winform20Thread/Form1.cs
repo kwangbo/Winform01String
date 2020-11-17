@@ -29,11 +29,21 @@ namespace Winform20Thread
         int _locationX = 0;
         int _locationY = 0;
 
+        List<Play> lPlay = new List<Play>(); // 목록
+
         public Form1()
         {
             InitializeComponent();
             _locationX = this.Location.X;
             _locationY = this.Location.Y;
+        }
+
+        private void Form1_FormClosing(object sender, System.Windows.Forms.FormClosingEventArgs e)
+        {
+            foreach (Play oPlayForm in lPlay)
+            {
+                oPlayForm.ThreadAbort(); //프로그램 종료 시점이라서 강제로 thread를 해제 
+            }
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -51,6 +61,8 @@ namespace Winform20Thread
 
                 //pl.test();
                 pl.fThreadStart();
+
+                lPlay.Add(pl); // 목록저장 
             }
 
         }
