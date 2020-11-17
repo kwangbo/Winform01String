@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform23Lambda", "Winform2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform24LINQ", "Winform24LINQ\Winform24LINQ.csproj", "{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform25TitleDisplay", "Winform25TitleDisplay\Winform25TitleDisplay.csproj", "{6A39ABE4-84B4-4CD5-A794-B45444748468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A39ABE4-84B4-4CD5-A794-B45444748468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A39ABE4-84B4-4CD5-A794-B45444748468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A39ABE4-84B4-4CD5-A794-B45444748468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A39ABE4-84B4-4CD5-A794-B45444748468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
