@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform22UserControl", "Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform23Lambda", "Winform23Lambda\Winform23Lambda.csproj", "{70A79D23-67BA-432A-A241-5A35BA1ADB68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform24LINQ", "Winform24LINQ\Winform24LINQ.csproj", "{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A79D23-67BA-432A-A241-5A35BA1ADB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9B7594-9028-40D9-B06A-CC1E567ED9CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
