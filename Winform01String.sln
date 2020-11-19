@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform29LinkedList", "Winf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform28Recursion", "winform28Recursion\winform28Recursion.csproj", "{C4F8BF90-6925-401C-AC5A-1B6DBF474BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform30Lock", "Winform30Lock\Winform30Lock.csproj", "{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{C4F8BF90-6925-401C-AC5A-1B6DBF474BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F8BF90-6925-401C-AC5A-1B6DBF474BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F8BF90-6925-401C-AC5A-1B6DBF474BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
