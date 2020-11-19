@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform28Recursion", "winfo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform30Lock", "Winform30Lock\Winform30Lock.csproj", "{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform31User32DllKeyBoardHook", "Winform31User32DllKeyBoardHook\Winform31User32DllKeyBoardHook.csproj", "{5058B566-48DC-406A-BAFC-C9005DEA6E0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41708B4-A760-42B7-8CAF-A83DAB1C9D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5058B566-48DC-406A-BAFC-C9005DEA6E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5058B566-48DC-406A-BAFC-C9005DEA6E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5058B566-48DC-406A-BAFC-C9005DEA6E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5058B566-48DC-406A-BAFC-C9005DEA6E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
