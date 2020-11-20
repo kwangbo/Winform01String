@@ -71,6 +71,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform31User32DllKeyBoardH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform32CopyAndPaste", "Winform32CopyAndPaste\Winform32CopyAndPaste.csproj", "{D273B083-DFC7-45F0-8F1A-2D3C7657F938}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform33ListDetail", "Winform33ListDetail\Winform33ListDetail.csproj", "{0F1B8047-F24C-461E-8018-7A0DB22BB56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "문자열보간", "문자열보간\문자열보간\문자열보간.csproj", "{881604DA-27A4-413D-89A0-B17E2509DDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "treeview", "Study_44_TreeView (FileCopy) (1) (UI)\treeview\treeview.csproj", "{6EA503AC-A223-4047-94AA-B54B74A3BE02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +219,18 @@ Global
 		{D273B083-DFC7-45F0-8F1A-2D3C7657F938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D273B083-DFC7-45F0-8F1A-2D3C7657F938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D273B083-DFC7-45F0-8F1A-2D3C7657F938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1B8047-F24C-461E-8018-7A0DB22BB56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1B8047-F24C-461E-8018-7A0DB22BB56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1B8047-F24C-461E-8018-7A0DB22BB56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1B8047-F24C-461E-8018-7A0DB22BB56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881604DA-27A4-413D-89A0-B17E2509DDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881604DA-27A4-413D-89A0-B17E2509DDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881604DA-27A4-413D-89A0-B17E2509DDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881604DA-27A4-413D-89A0-B17E2509DDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA503AC-A223-4047-94AA-B54B74A3BE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA503AC-A223-4047-94AA-B54B74A3BE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA503AC-A223-4047-94AA-B54B74A3BE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA503AC-A223-4047-94AA-B54B74A3BE02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
