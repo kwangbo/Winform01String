@@ -39,7 +39,7 @@ namespace Winform31User32DllKeyBoardHook
             {
                 Thread.Sleep(400);
 
-                lboxTestSave.Items.Add(Clipboard.GetData(System.Windows.Forms.DataFormats.UnicodeText).ToString());
+                lboxTextSave.Items.Add(Clipboard.GetData(System.Windows.Forms.DataFormats.UnicodeText).ToString());
             }
 
         }
@@ -47,9 +47,9 @@ namespace Winform31User32DllKeyBoardHook
 
         private void LboxTestSave_SelectedIndexChanged(object sender, System.EventArgs e)
         {
-            if (lboxTestSave.SelectedIndex != -1)
+            if (lboxTextSave.SelectedIndex != -1)
             {
-                Clipboard.SetData(System.Windows.Forms.DataFormats.UnicodeText, lboxTestSave.SelectedItem.ToString());
+                Clipboard.SetData(System.Windows.Forms.DataFormats.UnicodeText, lboxTextSave.SelectedItem.ToString());
             }
         }
 

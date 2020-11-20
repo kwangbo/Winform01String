@@ -28,26 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lboxTestSave = new System.Windows.Forms.ListBox();
+            this.lboxTextSave = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // lboxTestSave
+            // lboxTextSave
             // 
-            this.lboxTestSave.FormattingEnabled = true;
-            this.lboxTestSave.ItemHeight = 12;
-            this.lboxTestSave.Location = new System.Drawing.Point(36, 74);
-            this.lboxTestSave.Name = "lboxTestSave";
-            this.lboxTestSave.Size = new System.Drawing.Size(274, 280);
-            this.lboxTestSave.TabIndex = 0;
-            this.lboxTestSave.SelectedIndexChanged += LboxTestSave_SelectedIndexChanged;
-
+            this.lboxTextSave.FormattingEnabled = true;
+            this.lboxTextSave.ItemHeight = 12;
+            this.lboxTextSave.Location = new System.Drawing.Point(36, 74);
+            this.lboxTextSave.Name = "lboxTextSave";
+            this.lboxTextSave.Size = new System.Drawing.Size(274, 280);
+            this.lboxTextSave.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 551);
-            this.Controls.Add(this.lboxTestSave);
+            this.Controls.Add(this.lboxTextSave);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -55,10 +53,10 @@
 
         }
 
-        
+
         #endregion
 
-        private System.Windows.Forms.ListBox lboxTestSave;
+        private System.Windows.Forms.ListBox lboxTextSave;
     }
 }
 

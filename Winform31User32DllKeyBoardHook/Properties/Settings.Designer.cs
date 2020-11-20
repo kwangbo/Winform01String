@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Winform31User32DllKeyBoardHook.Properties
+namespace Winform32CopyAndPaste.Properties
 {
 
 
