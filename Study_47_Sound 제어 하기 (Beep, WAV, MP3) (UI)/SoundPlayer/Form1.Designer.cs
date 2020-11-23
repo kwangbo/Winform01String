@@ -147,6 +147,7 @@
             this.btnPlay.TabIndex = 6;
             this.btnPlay.Text = "▶";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnStop
             // 
@@ -157,6 +158,7 @@
             this.btnStop.TabIndex = 7;
             this.btnStop.Text = "■";
             this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // btnPause
             // 
@@ -167,6 +169,7 @@
             this.btnPause.TabIndex = 8;
             this.btnPause.Text = "∥";
             this.btnPause.UseVisualStyleBackColor = true;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
             // 
             // tbarVolume
             // 
@@ -176,6 +179,7 @@
             this.tbarVolume.Name = "tbarVolume";
             this.tbarVolume.Size = new System.Drawing.Size(128, 45);
             this.tbarVolume.TabIndex = 9;
+            this.tbarVolume.Scroll += new System.EventHandler(this.tbarVolume_Scroll);
             // 
             // tbarMain
             // 
@@ -195,6 +199,7 @@
             this.btnMP3.TabIndex = 11;
             this.btnMP3.Text = "MP3 Open";
             this.btnMP3.UseVisualStyleBackColor = true;
+            this.btnMP3.Click += new System.EventHandler(this.btnMP3_Click);
             // 
             // OFDialog
             // 
