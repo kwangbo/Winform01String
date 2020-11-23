@@ -40,6 +40,8 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnExe = new System.Windows.Forms.Button();
             this.OFDialog = new System.Windows.Forms.OpenFileDialog();
+            this.btnExcelExport = new System.Windows.Forms.Button();
+            this.SFDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dgData)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -159,11 +161,22 @@
             // 
             this.OFDialog.FileName = "openFileDialog1";
             // 
+            // btnExcelExport
+            // 
+            this.btnExcelExport.Location = new System.Drawing.Point(382, 272);
+            this.btnExcelExport.Name = "btnExcelExport";
+            this.btnExcelExport.Size = new System.Drawing.Size(113, 23);
+            this.btnExcelExport.TabIndex = 7;
+            this.btnExcelExport.Text = "Excel Expoert";
+            this.btnExcelExport.UseVisualStyleBackColor = true;
+            this.btnExcelExport.Click += new System.EventHandler(this.btnExcelExport_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(606, 658);
+            this.Controls.Add(this.btnExcelExport);
             this.Controls.Add(this.btnExe);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -194,6 +207,8 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnExe;
         private System.Windows.Forms.OpenFileDialog OFDialog;
+        private System.Windows.Forms.Button btnExcelExport;
+        private System.Windows.Forms.SaveFileDialog SFDialog;
     }
 }
 

@@ -96,6 +96,33 @@ order by ID Desc";
             QueryExecCute(tboxQuery.Text);
         }
 
-        
+        private void btnExcelExport_Click(object sender, EventArgs e)
+        {
+            //불러오기 
+
+            SFDialog.InitialDirectory = Application.StartupPath;
+            SFDialog.FileName = "*.csv";
+            SFDialog.Filter = "xls files(*.xlsx)|*.xls|All files(*.*)|*.*";
+            if (SFDialog.ShowDialog() == DialogResult.OK)
+            {
+                ExcelExe excel = new ExcelExe();
+
+                string strFilePath = SFDialog.FileName;
+                DataTable dt = dgData.DataSource as DataTable;
+
+                ExcelExe.enExportType enType = ExcelExe.enExportType.EXCEL_COM;
+                // excel api
+                //  excel.SaveExcel_COMAP(strFilePath, dt);
+
+                // excel.SaveExcel_OLEDB(strFilePath, dt);
+
+                string strRet = excel.ExcelExport(strFilePath, dt,enType);
+                MessageBox.Show(strRet);
+
+                //Export
+
+
+            }
+        }
     }
 }
