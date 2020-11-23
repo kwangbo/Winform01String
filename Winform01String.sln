@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "Study_45_DB �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundPlayer", "Study_47_Sound 제어 하기 (Beep, WAV, MP3) (UI)\SoundPlayer\SoundPlayer.csproj", "{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync_Ansync", "Study_48_비동기 제어 (async, await) (2차 Full Source) (1)\Sync_Ansync\Sync_Ansync.csproj", "{843A0763-25D9-413E-969D-B9C76698F914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winformCrawling", "Study_49_크롤링 (crawling)\winformCrawling\winformCrawling.csproj", "{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -401,6 +405,22 @@ Global
 		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|x64.ActiveCfg = Release|Any CPU
 		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|x64.Build.0 = Release|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Debug|x64.Build.0 = Debug|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Release|x64.ActiveCfg = Release|Any CPU
+		{843A0763-25D9-413E-969D-B9C76698F914}.Release|x64.Build.0 = Release|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{89C1AE54-7E50-4BF8-A7EB-481F668D73D6}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
