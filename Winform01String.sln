@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "treeview", "Study_44_TreeVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "Study_45_DB 사용하기(WordSearch) (UI)\WordSearch\WordSearch.csproj", "{A0B8245C-9359-481F-9BE0-38FEFCFF6EBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundPlayer", "Study_47_Sound 제어 하기 (Beep, WAV, MP3) (UI)\SoundPlayer\SoundPlayer.csproj", "{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -391,6 +393,14 @@ Global
 		{A0B8245C-9359-481F-9BE0-38FEFCFF6EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0B8245C-9359-481F-9BE0-38FEFCFF6EBB}.Release|x64.ActiveCfg = Release|x64
 		{A0B8245C-9359-481F-9BE0-38FEFCFF6EBB}.Release|x64.Build.0 = Release|x64
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Debug|x64.Build.0 = Debug|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|x64.ActiveCfg = Release|Any CPU
+		{8ABABC6B-29B6-4D35-BC93-DBEEBC7ACF62}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
